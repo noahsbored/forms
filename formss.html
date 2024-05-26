@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> form</title>
+</head>
+<body>
+    <form>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+
+        <label for="quantity">quantity:</label>
+        <input type="number" id="quantity" name="quantity" placeholder="Enter quantity" min="1" max="10" step="1"><br><br>
+
+        <label for="date">Select a Date:</label>
+        <input type="date" id="date" name="date" min="1900-01-01" max="2024-7-31" required><br><br>
+
+
+        <label for="rating">how awesome was the experience?</label>
+        <input type="range" id="rating" name="rating" min="1" max="10" step="1"><br><br>
+
+    
+        <label for="color">Choose a Color:</label>
+        <input type="color" id="color" name="color" value="#yoooo"><br><br>
+
+        <label for="language">favorite Language</label>
+        <select id="language" name="language">
+            <option value="javascript">javaScript</option>
+            <option value="python">python</option>
+            <option value="java">java</option>
+            <option value="csharp">C#</option>
+        </select><br><br>
+
+  
+        <label>level of Expertise:</label><br>
+        <input type="radio" id="beginner" name="expertise" value="beginner">
+        <label for="beginner">beginner</label><br>
+        <input type="radio" id="intermediate" name="expertise" value="intermediate">
+        <label for="intermediate">Intermediate</label><br>
+        <input type="radio" id="advanced" name="expertise" value="advanced">
+        <label for="advanced">advanced</label><br><br>
+
+
+        <label> platform</label><br>
+        <input type="checkbox" id="web" name="platform" value="web">
+        <label for="web">web</label><br>
+        <input type="checkbox" id="mobile" name="platform" value="mobile">
+        <label for="mobile">mbile</label><br>
+        <input type="checkbox" id="desktop" name="platform" value="desktop">
+        <label for="desktop">desktop</label><br><br>
+
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
